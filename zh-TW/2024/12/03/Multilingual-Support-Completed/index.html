@@ -1,0 +1,743 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-TW" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/zh-TW/img/fluid.png">
+  <link rel="icon" href="/zh-TW/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Kawashima Iwami">
+  <meta name="keywords" content="blog">
+  
+    <meta name="description" content="本部落格目前已經完成了多語言建設，讀者可以在導覽列點擊「🌐」按鈕切換語言。我會盡量保證各個語言的部落格文章同步更新，如果您發現某篇文章沒有對應語言的版本，您可以在我們的GitHub社區中使用對應的模板發表Issue，或者，您也可以協助翻譯。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="多語言支援完成">
+<meta property="og:url" content="https://stonepick.github.io/zh-TW/2024/12/03/Multilingual-Support-Completed/index.html">
+<meta property="og:site_name" content="DailyMinz">
+<meta property="og:description" content="本部落格目前已經完成了多語言建設，讀者可以在導覽列點擊「🌐」按鈕切換語言。我會盡量保證各個語言的部落格文章同步更新，如果您發現某篇文章沒有對應語言的版本，您可以在我們的GitHub社區中使用對應的模板發表Issue，或者，您也可以協助翻譯。">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2024-12-03T00:29:36.000Z">
+<meta property="article:modified_time" content="2024-12-03T00:29:36.000Z">
+<meta property="article:author" content="Kawashima Iwami">
+<meta property="article:tag" content="部落格公告">
+<meta property="article:tag" content="技術">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>多語言支援完成 - DailyMinz</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/zh-TW/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/zh-TW/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/zh-TW/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"stonepick.github.io","root":"/zh-TW/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/zh-TW/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/zh-TW/js/utils.js" ></script>
+  <script  src="/zh-TW/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/zh-TW/">
+      <strong>DailyMinz</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/zh-TW/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首頁</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/zh-TW/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>關於</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/StonePick/DailyMinz" target="_self">
+                <i class="iconfont icon-users"></i>
+                <span>社區</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/zh-TW/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>歸檔</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/zh-TW/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分類</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/zh-TW/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>標籤</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/zh-TW/links/" target="_self">
+                <i class="iconfont icon-link-fill"></i>
+                <span>連結</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                
+                <span>🌐</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/zh-TW/../" target="_self">
+                    
+                    <span>简体中文</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/zh-TW/../zh-TW/" target="_self">
+                    
+                    <span>正體中文</span>
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/zh-TW/../en/" target="_self">
+                    
+                    <span>English</span>
+                  </a>
+                
+              </div>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/zh-TW/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle">多語言支援完成</span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-author" aria-hidden="true"></i>
+        Kawashima Iwami
+      </span>
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-12-03 08:29" pubdate>
+          2024年12月3日
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          3.9k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          33 分鐘
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">多語言支援完成</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <p>本部落格目前已經完成了多語言建設，讀者可以在導覽列點擊「🌐」按鈕切換語言。我會盡量保證各個語言的部落格文章同步更新，如果您發現某篇文章沒有對應語言的版本，您可以在我們的<a target="_blank" rel="noopener" href="https://stonepick/DailyMinz">GitHub社區</a>中使用對應的模板發表Issue，或者，您也可以協助翻譯。</p>
+<p>Hexo框架本身的多語言支援（i18n）僅提供選單等的國際化，並不能實現部落格內容的多語言支援。部分主題內建這項功能，但本站使用的Fluid主題很不幸地在這一名單之外。因此，我只能在網路上找到相關的解決方案。我將我的發現與解決步驟記錄在這篇文章中，以期能夠幫助到其他有意願建立國際化部落格的讀者。</p>
+<h2 id="維護多套Hexo項目，主語言public資料夾中整合其他語言（本站選擇）"><a href="#維護多套Hexo項目，主語言public資料夾中整合其他語言（本站選擇）" class="headerlink" title="維護多套Hexo項目，主語言public資料夾中整合其他語言（本站選擇）"></a>維護多套Hexo項目，主語言<code>public</code>資料夾中整合其他語言（本站選擇）</h2><p>這一種方式是在部落格「Brando的自留地」發現的。由於<a target="_blank" rel="noopener" href="https://www.brando.dev/zh-hans/2021/01/03/%E8%AE%B0%E4%B8%80%E6%AC%A1-Hexo-%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E4%B8%8E%E5%A4%9A%E8%AF%AD%E8%A8%80%E7%AB%99%E7%82%B9%E6%94%B9%E9%80%A0/">原文</a>（<a target="_blank" rel="noopener" href="https://web.archive.org/web/20220122115111/https://www.brando.dev/zh-hans/2021/01/03/%E8%AE%B0%E4%B8%80%E6%AC%A1-Hexo-%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E4%B8%8E%E5%A4%9A%E8%AF%AD%E8%A8%80%E7%AB%99%E7%82%B9%E6%94%B9%E9%80%A0/">網頁存檔</a>）正好介紹的是使用Fluid主題時可用的解決方案，且原理易懂，因此，本站選擇了這一方式實現博客的國際化。</p>
+<h3 id="前期準備"><a href="#前期準備" class="headerlink" title="前期準備"></a>前期準備</h3><p>依照原文的思路，將主網站的檔案（除了<code>node_modules</code>）複製多份，每一份副本對應一個語言版本。例如，本站支援簡體中文、繁體中文（台灣）和英文三種語言，即將最初的簡體中文計畫另存兩份。這樣，本部落格網站的本地專案原始檔目錄呈現如下架構：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs text">DailyMinz<br>    |- en<br>    |- main-zh-CN<br>    |- zh-TW<br></code></pre></td></tr></table></figure>
+
+<p>這裡，各語言版本的目錄命名其實並不重要，理論上甚至可以隨便取名，只要自己認識就好。為了突出<code>zh-CN</code>的主要語言地位，我為其增加了<code>main-</code>的前綴，以示區分。</p>
+<p>在新增的語言分支中執行<code>npm install</code>，安裝相依性。</p>
+<p>然後，將<code>main-zh-CN/source</code>下的文章複製到其他語言分支中，並根據目標語言進行翻譯。這樣便完成了「異地化」的基本步驟。</p>
+<h3 id="語言配置"><a href="#語言配置" class="headerlink" title="語言配置"></a>語言配置</h3><p>在各語言分支下，修改網站配置<code>_config.yml</code>和主題的語言配置，使其與目前語言適配。</p>
+<p><strong>_config.yml：</strong></p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment"># Site</span><br><span class="hljs-attr">language:</span> <span class="hljs-string">&lt;對應語言&gt;</span><br></code></pre></td></tr></table></figure>
+
+<p>Fluid的<strong>主題語言配置</strong>影響主題自帶的文字<a href="%E8%A9%B3%E8%A6%8BFluid%E5%AE%98%E6%96%B9%E6%96%87%E6%AA%94%E2%80%9C%E8%AF%AD%E8%A8%80%E9%85%8D%E7%BD%AE%E2%80%9D%5Bsic%5D%E7%9A%84%E8%AA%AA%E6%98%8E%EF%BC%9A%E2%80%9C%E4%B8%8D%E5%90%8C%E8%AA%9E%E8%A8%80%E6%9C%83%E5%BD%B1%E9%9F%BF%E4%B8%80%E4%BA%9B%E4%B8%BB%E9%A1%8C%E8%87%AA%E5%B8%B6%E7%9A%84%E6%96%87%E5%AD%97%E3%80%82%E2%80%9D">^<a target="_blank" rel="noopener" href="https://www.brando.dev/zh-hans/2021/01/03/%E8%AE%B0%E4%B8%80%E6%AC%A1-Hexo-%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E4%B8%8E%E5%A4%9A%E8%AF%AD%E8%A8%80%E7%AB%99%E7%82%B9%E6%94%B9%E9%80%A0/">1</a></a>，正常情況下已經預先配置。如果想要在主題中加入自己的客製化內容，則需要記得在語言設定檔中新增。例如，我在導航列中加入了“社區”鏈接，英文語言配置文件（<code>en.yml</code>）則需加入：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-attr">community:</span><br>  <span class="hljs-attr">menu:</span> <span class="hljs-string">&#x27;Community&#x27;</span><br></code></pre></td></tr></table></figure>
+
+<p>其他語言分支做類似處理。</p>
+<h3 id="切換語言"><a href="#切換語言" class="headerlink" title="切換語言"></a>切換語言</h3><p>本部落格語言切換按鈕設定在導覽列中，以一個「🌐」符號表示。在主題設定檔中，找到有關導覽列的設定。</p>
+<p><strong>_config.fluid.yml：</strong></p>
+<div class="note note-info">
+            <p>由於源文件如此，为避免混淆，此程式碼區塊內註解不翻譯。</p>
+          </div>
+
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-comment"># 导航栏的相关配置</span><br><span class="hljs-comment"># Navigation bar</span><br><span class="hljs-attr">navbar:</span><br>  <span class="hljs-comment"># ...</span><br>  <span class="hljs-comment"># 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称</span><br>  <span class="hljs-comment"># Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name</span><br>  <span class="hljs-attr">menu:</span><br>    <span class="hljs-bullet">-</span> &#123; <span class="hljs-attr">key:</span> <span class="hljs-string">&quot;home&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;/&quot;</span>, <span class="hljs-attr">icon:</span> <span class="hljs-string">&quot;iconfont icon-home-fill&quot;</span> &#125;<br>    <span class="hljs-bullet">-</span> &#123; <span class="hljs-attr">key:</span> <span class="hljs-string">&quot;about&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;/about/&quot;</span>, <span class="hljs-attr">icon:</span> <span class="hljs-string">&quot;iconfont icon-user-fill&quot;</span> &#125;<br>    <span class="hljs-bullet">-</span> &#123; <span class="hljs-attr">key:</span> <span class="hljs-string">&quot;archive&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;/archives/&quot;</span>, <span class="hljs-attr">icon:</span> <span class="hljs-string">&quot;iconfont icon-archive-fill&quot;</span> &#125;<br>    <span class="hljs-bullet">-</span> &#123; <span class="hljs-attr">key:</span> <span class="hljs-string">&quot;category&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;/categories/&quot;</span>, <span class="hljs-attr">icon:</span> <span class="hljs-string">&quot;iconfont icon-category-fill&quot;</span> &#125;<br>    <span class="hljs-bullet">-</span> &#123; <span class="hljs-attr">key:</span> <span class="hljs-string">&quot;tag&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;/tags/&quot;</span>, <span class="hljs-attr">icon:</span> <span class="hljs-string">&quot;iconfont icon-tags-fill&quot;</span> &#125;<br>    <span class="hljs-comment"># - &#123; key: &quot;links&quot;, link: &quot;/links/&quot;, icon: &quot;iconfont icon-link-fill&quot; &#125;</span><br></code></pre></td></tr></table></figure>
+
+<p>我在<code>menu</code>下添加了如下程式碼：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-bullet">-</span> &#123; <br>  <span class="hljs-attr">key:</span> <span class="hljs-string">&quot;lang&quot;</span>,<br>  <span class="hljs-attr">submenu:</span> [<br>    &#123; <span class="hljs-attr">key:</span> <span class="hljs-string">&quot;zh-CN&quot;</span>, <span class="hljs-attr">name:</span> <span class="hljs-string">&quot;简体中文&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;../&quot;</span> &#125;,<br>    &#123; <span class="hljs-attr">key:</span> <span class="hljs-string">&quot;zh-TW&quot;</span>, <span class="hljs-attr">name:</span> <span class="hljs-string">&quot;正體中文&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;../zh-TW/&quot;</span> &#125;,<br>    &#123; <span class="hljs-attr">key:</span> <span class="hljs-string">&quot;en&quot;</span>, <span class="hljs-attr">name:</span> <span class="hljs-string">&quot;English&quot;</span>, <span class="hljs-attr">link:</span> <span class="hljs-string">&quot;../en/&quot;</span> &#125;<br>    ]<br>  &#125;<br></code></pre></td></tr></table></figure>
+
+<p>使用多層選單來切換語言。注意各子選單的<code>link</code>部分。</p>
+<p>另外，在對應語言設定檔中，記得新增映射。</p>
+<p><strong>zh-CN.yml：</strong></p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">lang:</span><br>  <span class="hljs-attr">menu:</span> <span class="hljs-string">&#x27;🌐&#x27;</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="整合其他語言文章"><a href="#整合其他語言文章" class="headerlink" title="整合其他語言文章"></a>整合其他語言文章</h3><p>接下來就是準備部署站點了。在各語言分支下均產生public文件，轉到主語言分支，在<code>main-zh-CN/public</code>下新建<code>en</code>和<code>zh-TW</code>兩個資料夾。注意，由於各語言分支的位址已經硬編碼在主題配置中，這兩個資料夾必須按照設定的路徑命名。將另外兩個語言分支下的<code>public</code>檔案分別複製過去。然後，直接部署即可。</p>
+<p>我們可以發現，Hexo產生的<code>public</code>文件，就是整個網站架構本身。切換至其他語言，也就是存取網​​站根目錄（在本地即為<code>public</code>）的下級目錄，即<code>/en/</code>或<code>/zh-TW/</code>。如果跳出國際化建設本身，我們也可以利用這一點，進行更自由的客制化操作。例如，當你自己手寫了一份html文檔，想把它連入依靠Hexo框架建構的網站時，就直接從<code>public</code>下手即可。例如，如果我想使用自製的主頁而不是Fluid生成的，我就可以替換掉<code>public/index.html</code>；如果我想添加一個自訂的登入&#x2F;訂閱頁面，我可以在其中新建<code>accounts</code>&#x2F; <code>subscribe</code>子目錄，在瀏覽器中訪問，URL即表現為<code>https://example.com/accounts/page.html</code>。</p>
+<p>但要注意，這些自訂項目的來源檔案必須保存在其他地方，否則，在使用<code>hexo clean</code>命令清理快取時，<code>public</code>下所有的心血都會付之一炬。</p>
+<p>關於這項「自由的」客制操作，以及相關的自動化維護與部署的話題，我會繼續研究相關解決方案，目前是考慮編寫一個Python程式來實現這些操作。</p>
+<h3 id="缺點"><a href="#缺點" class="headerlink" title="缺點"></a>缺點</h3><p>最明顯的一項是：同時維護多套項目，操作複雜，容易「顧此失彼」。尤其是在改動部落格設定檔時，更容易出現問題。</p>
+<p>另外一項，則是多語言站點的通病：保持多語言內容的同步更新的確是一件非常考驗部落客能力與毅力的事情。</p>
+<h2 id="維護單Hexo項目，多庫部署"><a href="#維護單Hexo項目，多庫部署" class="headerlink" title="維護單Hexo項目，多庫部署"></a>維護單Hexo項目，多庫部署</h2><p>部落格<a target="_blank" rel="noopener" href="https://www.igerm.ee/experience/%E5%AE%8C%E7%BE%8E%E7%9A%84Hexo%E5%A4%9A%E8%AF%AD%E8%A8%80%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88">「井說」的相關頁面</a>（<a target="_blank" rel="noopener" href="https://web.archive.org/web/20241202145622/https://www.igerm.ee/experience/%E5%AE%8C%E7%BE%8E%E7%9A%84Hexo%E5%A4%9A%E8%AF%AD%E8%A8%80%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">網頁存檔</a>）介紹了另一種方法，並提供了自動化部署方案。這種多語言方案只需要維護一套Hexo項目，但仍然需要管理不同語言的設定檔。</p>
+<p>作者採取直接在<code>source</code>中建立不同語言文章存放目錄的方法，區分不同語言的文章。在自動化部署上，將不同語言分支所屬的檔案分別推送至不同的程式庫中，並藉助GitHub Pages的位址特性來區分各個語言版本。</p>
+<p>這套解決方案與上一套的本質區別是，上一套方案將「多個GitHub庫」放在本地，即多個Hexo專案；而該方案則將各個專案透過自動化方式託管在GitHub上，本地僅保留一套項目容納各語言分支的文件。</p>
+<p>由於本部落格未採用該方案，因此不進行詳細闡述。但是，原文結尾提出了一個想法，就是使用Google翻譯的API，在部署過程中翻譯文章。作為處理多語言內容的「偷懶」方式，這個想法值得深究（笑）。</p>
+<h2 id="修改主頁顯示方式"><a href="#修改主頁顯示方式" class="headerlink" title="修改主頁顯示方式"></a>修改主頁顯示方式</h2><p>如果使用<code>hexo-generator-i18n</code>插件直接透過在<code>_post</code>下建立多語言目錄的方式實現多語言內容，則會出現這樣一個致命的問題：博客首頁會把所有的文章，無論什麼語言，統統展示出來。針對這個問題，部落格<a target="_blank" rel="noopener" href="https://linvis.github.io/2019/05/16/Hexo%E7%9A%84%E5%A4%9A%E8%AF%AD%E8%A8%80%E9%85%8D%E7%BD%AE/">「Linvis」上的一篇文章</a>（<a target="_blank" rel="noopener" href="https://web.archive.org/web/20241202151737/https://linvis.github.io/2019/05/16/Hexo%E7%9A%84%E5%A4%9A%E8%AF%AD%E8%A8%80%E9%85%8D%E7%BD%AE/">網頁存檔</a>）提出了直接修改主題版面的方式。相較於上一種，此方案更加技術化。此方案需要<code>hexo-generator-i18n</code>插件，透過在文章的<code>front-matter</code>中插入<code>lang</code>參數來區分文章語言。</p>
+<p>作者指出需要修改主題的<code>layout/index.ejs</code>，加入以下程式碼：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;app-body&quot;</span>&gt;</span><br>  &lt;% var currentURL = page.path.split(&#x27;/&#x27;) %&gt;<br>  &lt;% if (currentURL.length === 1) &#123; %&gt;<br>    &lt;% var lang = page.lang %&gt;<br>  &lt;% &#125; else &#123; %&gt;<br>    &lt;% var lang = currentURL.shift() %&gt;<br>  &lt;% &#125; %&gt;<br>  &lt;% page.posts.each(function(post) &#123; %&gt;<br>  &lt;% if (lang == post.lang) &#123; %&gt;<br>    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;article-card&quot;</span>&gt;</span><br>      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;article-head&quot;</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%- url_for(post.path) %&gt;&quot;</span>&gt;</span>&lt;%- post.title %&gt;<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><br>      <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span><br>      <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;article-date&quot;</span>&gt;</span>&lt;%- date(post.date, &quot;LL&quot;) %&gt;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><br>      &lt;% if (post.tags &amp;&amp; post.tags.length) &#123; %&gt;<br>        &lt;%- partial(&#x27;_partial/tag&#x27;, &#123; tags: post.tags &#125;) %&gt;<br>      &lt;% &#125; %&gt;<br>      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;article-summary&quot;</span>&gt;</span><br>        &lt;% if (post.excerpt) &#123; %&gt;<br>          &lt;%- post.excerpt %&gt;<br>        &lt;% &#125; else &#123; %&gt;<br>          &lt;%- truncate(strip_html(post.content), &#123; length: 150, omission: &#x27; ...&#x27; &#125;) %&gt;<br>        &lt;% &#125; %&gt;<br>      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br>      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;more&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%- url_for(post.path) %&gt;&quot;</span>&gt;</span>&lt;%- theme.excerpt_link %&gt;<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><br>    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span><br>  &lt;% &#125; %&gt;<br>  &lt;% &#125;) %&gt;<br><br>  &lt;% if (page.total &gt; 1)&#123; %&gt;<br>    &lt;%- partial(&#x27;_partial/pager&#x27;) %&gt;<br>  &lt;% &#125; %&gt;<br><span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span><br></code></pre></td></tr></table></figure>
+
+<p>但經過我的測試，如果直接加入這一程式碼，會造成主語言主頁上出現兩個文章列表；經過比較兩者結構後，又嘗試替換原代碼的主體部分，卻導致網頁無法渲染。由於我目前對JavaScript一無所知，所以我請求ChatGPT提供協助，取得程式碼如下：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><code class="hljs javascript">&lt;% <br><span class="hljs-comment">// 假設目前語言儲存在 page.lang 或 config.language 中</span><br><span class="hljs-keyword">var</span> currentLang = page.<span class="hljs-property">lang</span> || config.<span class="hljs-property">language</span>;<br><span class="hljs-comment">// 過濾出符合目前語言的文章</span><br><span class="hljs-keyword">var</span> filteredPosts = page.<span class="hljs-property">posts</span>.<span class="hljs-title function_">filter</span>(<span class="hljs-keyword">function</span>(<span class="hljs-params">post</span>) &#123;<br> <span class="hljs-keyword">return</span> post.<span class="hljs-property">lang</span> === currentLang; <span class="hljs-comment">// 確保文章的語言與目前語言一致</span><br>&#125;); <br>%&gt;<br><br>&lt;% filteredPosts.<span class="hljs-title function_">each</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">post</span>) &#123; %&gt;<br>  <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row mx-auto index-card&quot;</span>&gt;</span></span><br><span class="language-xml">    &lt;% var post_url = url_for(post.path), index_img = post.index_img || theme.post.default_index_img %&gt;</span><br><span class="language-xml">    &lt;% if (index_img) &#123; %&gt;</span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-12 col-md-4 m-auto index-img&quot;</span>&gt;</span></span><br><span class="language-xml">        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%= post_url %&gt;&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;&lt;%- theme.index.post_url_target %&gt;&quot;</span>&gt;</span></span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;&lt;%= url_for(index_img) %&gt;&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&lt;%= post.title %&gt;&quot;</span>&gt;</span></span><br><span class="language-xml">        <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">    &lt;% &#125; %&gt;</span><br><span class="language-xml">    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-12 col-md-&lt;%= index_img ? &#x27;8&#x27; : &#x27;12&#x27; %&gt; mx-auto index-info&quot;</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;index-header&quot;</span>&gt;</span></span><br><span class="language-xml">        &lt;% if (theme.index.post_sticky &amp;&amp; theme.index.post_sticky.enable &amp;&amp; post.sticky &gt; 0) &#123; %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;index-pin &lt;%= theme.index.post_sticky &amp;&amp; theme.index.post_sticky.icon %&gt;&quot;</span> <span class="hljs-attr">title</span>=<span class="hljs-string">&quot;Pin on top&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span><br><span class="language-xml">        &lt;% &#125; %&gt;</span><br><span class="language-xml">        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%= post_url %&gt;&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;&lt;%- theme.index.post_url_target %&gt;&quot;</span>&gt;</span></span><br><span class="language-xml">          &lt;%= post.title %&gt;</span><br><span class="language-xml">        <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span></span><br><span class="language-xml"></span><br><span class="language-xml">      &lt;% var excerpt = post.description || post.excerpt || (theme.index.auto_excerpt.enable &amp;&amp; !post.encrypt &amp;&amp; post.content) %&gt;</span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;index-excerpt &lt;%= index_img ? &#x27;&#x27; : &#x27;index-excerpt__noimg&#x27; %&gt;&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%= post_url %&gt;&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;&lt;%- theme.index.post_url_target %&gt;&quot;</span>&gt;</span></span><br><span class="language-xml">        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">          &lt;%- strip_html(excerpt).substring(0, 200).trim().replace(/\n/g, &#x27; &#x27;) %&gt;</span><br><span class="language-xml">        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span><br><span class="language-xml"></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;index-btm post-metas&quot;</span>&gt;</span></span><br><span class="language-xml">        &lt;% if (theme.index.post_meta.date) &#123; %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;post-meta mr-3&quot;</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;iconfont icon-date&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;<span class="hljs-name">time</span> <span class="hljs-attr">datetime</span>=<span class="hljs-string">&quot;&lt;%= full_date(post.date, &#x27;YYYY-MM-DD HH:mm&#x27;) %&gt;&quot;</span> <span class="hljs-attr">pubdate</span>&gt;</span></span><br><span class="language-xml">              &lt;%- date(post.date, config.date_format) %&gt;</span><br><span class="language-xml">            <span class="hljs-tag">&lt;/<span class="hljs-name">time</span>&gt;</span></span><br><span class="language-xml">          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">        &lt;% &#125; %&gt;</span><br><span class="language-xml">        &lt;% if (theme.index.post_meta.category &amp;&amp; post.categories.length &gt; 0) &#123; %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;post-meta mr-3 d-flex align-items-center&quot;</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;iconfont icon-category&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span><br><span class="language-xml">            &lt;%- partial(&#x27;_partials/category-chains&#x27;, &#123; categories: post.categories, limit: 1 &#125;) %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">        &lt;% &#125; %&gt;</span><br><span class="language-xml">        &lt;% if (theme.index.post_meta.tag &amp;&amp; post.tags.length &gt; 0) &#123; %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;post-meta&quot;</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;iconfont icon-tags&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span><br><span class="language-xml">            &lt;% post.tags.each(function(tag)&#123; %&gt;</span><br><span class="language-xml">              <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%= url_for(tag.path) %&gt;&quot;</span>&gt;</span>#&lt;%- tag.name %&gt;<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span><br><span class="language-xml">            &lt;% &#125;) %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">        &lt;% &#125; %&gt;</span><br><span class="language-xml">      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span></span><br><span class="language-xml">  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">&lt;% &#125;) %&gt;</span><br></code></pre></td></tr></table></figure>
+
+<p>將上述程式碼直接替換掉原文件主體部分即可正確運作。</p>
+
+    <div class="fold">
+      <div class="fold-title fold-into collapsed" data-toggle="collapse" href="#collapse-098520c4" role="button" aria-expanded="false" aria-controls="collapse-098520c4">
+        <div class="fold-arrow">▶</div>「主體部分」
+      </div>
+      <div class="fold-collapse collapse" id="collapse-098520c4">
+        <div class="fold-content">
+          <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><code class="hljs javascript">&lt;% page.<span class="hljs-property">posts</span>.<span class="hljs-title function_">each</span>(<span class="hljs-keyword">function</span> (<span class="hljs-params">post</span>) &#123; %&gt;<br>  <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row mx-auto index-card&quot;</span>&gt;</span></span><br><span class="language-xml">    &lt;% var post_url = url_for(post.path), index_img = post.index_img || theme.post.default_index_img %&gt;</span><br><span class="language-xml">    &lt;% if (index_img) &#123; %&gt;</span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-12 col-md-4 m-auto index-img&quot;</span>&gt;</span></span><br><span class="language-xml">        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%= post_url %&gt;&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;&lt;%- theme.index.post_url_target %&gt;&quot;</span>&gt;</span></span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;&lt;%= url_for(index_img) %&gt;&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;&lt;%= post.title %&gt;&quot;</span>&gt;</span></span><br><span class="language-xml">        <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">    &lt;% &#125; %&gt;</span><br><span class="language-xml">    <span class="hljs-tag">&lt;<span class="hljs-name">article</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;col-12 col-md-&lt;%= index_img ? &#x27;8&#x27; : &#x27;12&#x27; %&gt; mx-auto index-info&quot;</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;index-header&quot;</span>&gt;</span></span><br><span class="language-xml">        &lt;% if (theme.index.post_sticky &amp;&amp; theme.index.post_sticky.enable &amp;&amp; post.sticky &gt; 0) &#123; %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;index-pin &lt;%= theme.index.post_sticky &amp;&amp; theme.index.post_sticky.icon %&gt;&quot;</span> <span class="hljs-attr">title</span>=<span class="hljs-string">&quot;Pin on top&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span><br><span class="language-xml">        &lt;% &#125; %&gt;</span><br><span class="language-xml">        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%= post_url %&gt;&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;&lt;%- theme.index.post_url_target %&gt;&quot;</span>&gt;</span></span><br><span class="language-xml">          &lt;%= post.title %&gt;</span><br><span class="language-xml">        <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span></span><br><span class="language-xml"></span><br><span class="language-xml">      &lt;% var excerpt = post.description || post.excerpt || (theme.index.auto_excerpt.enable &amp;&amp; !post.encrypt &amp;&amp; post.content) %&gt;</span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;index-excerpt &lt;%= index_img ? &#x27;&#x27; : &#x27;index-excerpt__noimg&#x27; %&gt;&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%= post_url %&gt;&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;&lt;%- theme.index.post_url_target %&gt;&quot;</span>&gt;</span></span><br><span class="language-xml">        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">          &lt;%- strip_html(excerpt).substring(0, 200).trim().replace(/\n/g, &#x27; &#x27;) %&gt;</span><br><span class="language-xml">        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">      <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span><br><span class="language-xml"></span><br><span class="language-xml">      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;index-btm post-metas&quot;</span>&gt;</span></span><br><span class="language-xml">        &lt;% if (theme.index.post_meta.date) &#123; %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;post-meta mr-3&quot;</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;iconfont icon-date&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;<span class="hljs-name">time</span> <span class="hljs-attr">datetime</span>=<span class="hljs-string">&quot;&lt;%= full_date(post.date, &#x27;YYYY-MM-DD HH:mm&#x27;) %&gt;&quot;</span> <span class="hljs-attr">pubdate</span>&gt;</span></span><br><span class="language-xml">              &lt;%- date(post.date, config.date_format) %&gt;</span><br><span class="language-xml">            <span class="hljs-tag">&lt;/<span class="hljs-name">time</span>&gt;</span></span><br><span class="language-xml">          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">        &lt;% &#125; %&gt;</span><br><span class="language-xml">        &lt;% if (theme.index.post_meta.category &amp;&amp; post.categories.length &gt; 0) &#123; %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;post-meta mr-3 d-flex align-items-center&quot;</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;iconfont icon-category&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span><br><span class="language-xml">            &lt;%- partial(&#x27;_partials/category-chains&#x27;, &#123; categories: post.categories, limit: 1 &#125;) %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">        &lt;% &#125; %&gt;</span><br><span class="language-xml">        &lt;% if (theme.index.post_meta.tag &amp;&amp; post.tags.length &gt; 0) &#123; %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;post-meta&quot;</span>&gt;</span></span><br><span class="language-xml">            <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;iconfont icon-tags&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></span><br><span class="language-xml">            &lt;% post.tags.each(function(tag)&#123; %&gt;</span><br><span class="language-xml">              <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%= url_for(tag.path) %&gt;&quot;</span>&gt;</span>#&lt;%- tag.name %&gt;<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span><br><span class="language-xml">            &lt;% &#125;) %&gt;</span><br><span class="language-xml">          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">        &lt;% &#125; %&gt;</span><br><span class="language-xml">      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span></span><br><span class="language-xml">  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span><br><span class="language-xml">&lt;% &#125;) %&gt;</span><br></code></pre></td></tr></table></figure>
+        </div>
+      </div>
+    </div>
+
+<p>但這方案仍有非常嚴重的缺陷：特殊頁面，例如關於頁等，無法國際化；此外，在歸檔頁，仍然能看到其他語言的文章。或許<code>hexo-generator-i18n</code>插件可以解決這個問題，但我目前沒有從文檔和實踐中摸清它的運作方式；外加對主體源碼修改可能造成的潛在問題的擔憂，該方案在經過短暫的使用後被本站迅速廢棄了。</p>
+<h2 id="寫在最後"><a href="#寫在最後" class="headerlink" title="寫在最後"></a>寫在最後</h2><p>~~在研究第三種方案的時候，我很難忍住自己的吐槽：為什麼ejs的程式碼如此令人眼花撩亂？ ~~</p>
+<p>Hexo框架的國際化方案仍然不成熟，各個主題各行其是，而Fluid主題很不幸地不具備內生的多語言內容支援。我曾考慮過把整個架構推倒重來，但顧及已經很龐大的沉沒成本，還是選擇了死磕到底。</p>
+<p>目前這套方案仍有不成熟的地方，例如切換語言時永遠只會將讀者導向對應語言的首頁，本地維護流程管理缺乏系統化，等等。等到我做出完整解決方案，會將其公佈在本部落格中。</p>
+<p>在折騰的過程中，我又接觸到許多新的知識，發現了其他堅持更新優質內容的博客，找到了更多的值得探究<del>（折騰）</del>的方向。例如前面提到的自動化部署、接取Google翻譯API，以及嵌入式JavaScript。 <code>public</code>資料夾的新玩法似乎也是一處極為豐富的礦藏，據我所查詢到的資訊而言，這一礦藏似乎還沒有取得人們的關注<del>（畢竟能靠框架解決的事情為什麼還要自己手寫HTML）</del>。後續我可能會在這些主題上發表後續的研究，以期能為其他人提供一點微不足道的幫助。</p>
+<p><em>文章由Google翻譯生成，請以簡體中文版本為準。</em></p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/zh-TW/tags/%E9%83%A8%E8%90%BD%E6%A0%BC%E5%85%AC%E5%91%8A/" class="print-no-link">#部落格公告</a>
+      
+        <a href="/zh-TW/tags/%E6%8A%80%E8%A1%93/" class="print-no-link">#技術</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>多語言支援完成</div>
+      <div>https://stonepick.github.io/zh-TW/2024/12/03/Multilingual-Support-Completed/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Kawashima Iwami</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>發布於</div>
+          <div>2024年12月3日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>許可協議</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商業性使用">
+                    <i class="iconfont icon-cc-nc"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-cc-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目錄</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜尋</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">關鍵字</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       Copyright 2024 DailyMinz |  Powered by <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> |  Theme <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/zh-TW/js/events.js" ></script>
+<script  src="/zh-TW/js/plugins.js" ></script>
+
+
+
+
+
+  
+    <script  src="/zh-TW/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/zh-TW/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/zh-TW/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允許 JavaScript 運行的環境下瀏覽效果更佳</div>
+  </noscript>
+</body>
+</html>
