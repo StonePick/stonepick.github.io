@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>DailyMinz</title>
-  <icon>https://stonepick.github.io/icon.png</icon>
+  <icon>https://dailyminz.org/icon.png</icon>
   <subtitle>记录自己通往知识之路。</subtitle>
-  <link href="https://stonepick.github.io/atom.xml" rel="self"/>
+  <link href="https://dailyminz.org/atom.xml" rel="self"/>
   
-  <link href="https://stonepick.github.io/"/>
-  <updated>2025-01-01T14:01:05.958Z</updated>
-  <id>https://stonepick.github.io/</id>
+  <link href="https://dailyminz.org/"/>
+  <updated>2025-01-02T03:04:15.688Z</updated>
+  <id>https://dailyminz.org/</id>
   
   <author>
     <name>Kawashima Iwami</name>
@@ -17,9 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>翻译：中国探路者 2024年第一季度更新</title>
+    <link href="https://dailyminz.org/2025/01/02/Translation-ChinaPathfinder-Q1Upd/"/>
+    <id>https://dailyminz.org/2025/01/02/Translation-ChinaPathfinder-Q1Upd/</id>
+    <published>2025-01-02T03:00:59.000Z</published>
+    <updated>2025-01-02T03:04:15.688Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2><p><a href="https://chinapathfinder.org">“中国探路者”（China Pathfinder）</a>项目是<a href="https://www.atlanticcouncil.org/">大西洋理事会</a>和<a href="https://rhg.com/">荣鼎集团</a>合作发起的一个项目，追踪中国市场相对于开放市场经济规范的运行情况。自2021年第三季度启动以来，这一项目持续发布季度追踪和包含了巨量数据的年度“计分板”报告书，为洞察中国经济形势提供了无比详实、客观和定量的统计与政策分析。</p><p>该项目的分析报告皆可在其官网上免费下载。</p><h3 id="版权声明">版权声明</h3><p><em><strong>China Pathfinder: Q1 2024 Update</strong></em>由China Pathfinder项目出版，原作者保留其所有著作权。原文开放获取（open access）。我因学习需要，将其翻译为简体中文，不对译文主张任何权利（即不适用页尾处的“版权声明”）。关于本博客版权问题，请参照关于页的相关栏目。</p><p>报告原文：<a href="https://chinapathfinder.org/china-pathfinder-q1-2024-update/">https://chinapathfinder.org/china-pathfinder-q1-2024-update/</a>。读者可在此下载原版报告文件（PDF格式）。</p><h2 id="中国探路者：第二季度更新">中国探路者：第二季度更新</h2><p>摘要（译自原报告网页）：</p><p>2024年三月，中国总理李强取消了传统的年度新闻发布会来介绍政府来年的计划，结束了坎坷波折的第一季度。但通过许多方式，中国的政策措施会自报家门。今年迄今为止，中国一直在努力支持低迷的股市，增加出口以弥补国内需求产生的空缺，并通过补贴和其他创新基金加倍支持高新产业。本经济年度中国最重要的政策文件，《政府工作报告》，承诺了国家指导方针和财政扩张，但没有处理过去几年阻碍北京采取这些行动的结构性问题。</p><p>我们识别出了一些与全球市场规范相容的积极政策动向，包括金融系统发展和直接投资开放程度。在数据法规多年的范围不确定性后，新数据安全指导方针为紧张的外国投资者提供了一些安慰。北京再一次承诺要放宽营商环境限制，为外国企业提供公平的竞争环境，这一次通过二十四条措施和一场在中国发展高层论坛上对外国CEO们的魅力攻势（charm offensive）。尽管存在不确定性，外国证券投资者仍然利用了中国债券的溢价回报，即使直接投资停滞不前。</p><p>这些政策策略大多数是故技重施。在探路者框架下监测的绝大多数地区中，要么没有市场融合，要么主动倒退。几乎没有公开讨论提及影响经济前景、低生产率和外国对产能过剩或汇率风险的担忧的结构性和系统性因素。必要的辩论噤声激起了七国集团成员国政府间关于协调集体贸易防御必要性的讨论。即使房地产调整结束的少量迹象正在出现，表明未来几个季度将出现周期性稳定，但在实施有意义的市场改革之前，可持续增长的长期阻力将会增强。</p><a class="btn" href="./中国探路者_第一季度_2024_更新-4.pdf"  title="文章下载" target="_blank">文章下载</a><h2 id="写在最后">写在最后</h2><p>本博客会持续追踪中国探路者项目的更新，并在力所能及的范围内尽快提供中译文。如果找到了其他可靠的非中文信源发布的相关内容，在不侵犯版权的情况下，我也会将其翻译发布于此，以供大家一起学习讨论。</p>]]></content>
+    
+    
+    <summary type="html">“中国探路者”（China Pathfinder）项目是大西洋理事会和荣鼎集团合作发起的一个项目，追踪中国市场相对于开放市场经济规范的运行情况。自2021年第三季度启动以来，这一项目持续发布季度追踪和包含了巨量数据的年度“计分板”报告书，为洞察中国经济形势提供了无比详实、客观和定量的统计与政策分析。该项目的分析报告皆可在其官网上免费下载。</summary>
+    
+    
+    
+    <category term="文章翻译" scheme="https://dailyminz.org/categories/%E6%96%87%E7%AB%A0%E7%BF%BB%E8%AF%91/"/>
+    
+    <category term="中国探路者" scheme="https://dailyminz.org/categories/%E6%96%87%E7%AB%A0%E7%BF%BB%E8%AF%91/%E4%B8%AD%E5%9B%BD%E6%8E%A2%E8%B7%AF%E8%80%85/"/>
+    
+    
+    <category term="经济" scheme="https://dailyminz.org/tags/%E7%BB%8F%E6%B5%8E/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2024年终总结</title>
-    <link href="https://stonepick.github.io/2025/01/01/Annaul-Column-2024/"/>
-    <id>https://stonepick.github.io/2025/01/01/Annaul-Column-2024/</id>
+    <link href="https://dailyminz.org/2025/01/01/Annaul-Column-2024/"/>
+    <id>https://dailyminz.org/2025/01/01/Annaul-Column-2024/</id>
     <published>2024-12-31T17:31:22.000Z</published>
     <updated>2025-01-01T14:01:05.958Z</updated>
     
@@ -30,15 +53,15 @@
     
     
     
-    <category term="博客公告" scheme="https://stonepick.github.io/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
+    <category term="博客公告" scheme="https://dailyminz.org/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>RSS功能已上线</title>
-    <link href="https://stonepick.github.io/2024/12/19/RSS-Available-Now/"/>
-    <id>https://stonepick.github.io/2024/12/19/RSS-Available-Now/</id>
+    <link href="https://dailyminz.org/2024/12/19/RSS-Available-Now/"/>
+    <id>https://dailyminz.org/2024/12/19/RSS-Available-Now/</id>
     <published>2024-12-18T16:00:00.000Z</published>
     <updated>2024-12-31T15:27:33.024Z</updated>
     
@@ -49,15 +72,15 @@
     
     
     
-    <category term="博客公告" scheme="https://stonepick.github.io/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
+    <category term="博客公告" scheme="https://dailyminz.org/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>圣诞节全球化与文化流变</title>
-    <link href="https://stonepick.github.io/2024/12/15/Globalization-of-Christmas-and-Cultural-Evolution/"/>
-    <id>https://stonepick.github.io/2024/12/15/Globalization-of-Christmas-and-Cultural-Evolution/</id>
+    <link href="https://dailyminz.org/2024/12/15/Globalization-of-Christmas-and-Cultural-Evolution/"/>
+    <id>https://dailyminz.org/2024/12/15/Globalization-of-Christmas-and-Cultural-Evolution/</id>
     <published>2024-12-15T15:28:55.000Z</published>
     <updated>2024-12-31T15:27:50.477Z</updated>
     
@@ -68,38 +91,40 @@
     
     
     
-    <category term="学科浅论" scheme="https://stonepick.github.io/categories/%E5%AD%A6%E7%A7%91%E6%B5%85%E8%AE%BA/"/>
+    <category term="学科浅论" scheme="https://dailyminz.org/categories/%E5%AD%A6%E7%A7%91%E6%B5%85%E8%AE%BA/"/>
     
     
-    <category term="文化" scheme="https://stonepick.github.io/tags/%E6%96%87%E5%8C%96/"/>
+    <category term="文化" scheme="https://dailyminz.org/tags/%E6%96%87%E5%8C%96/"/>
     
   </entry>
   
   <entry>
-    <title>翻译：中国探路者 第二季度更新</title>
-    <link href="https://stonepick.github.io/2024/12/07/Translation-ChinaPathfinder-Q2Upd/"/>
-    <id>https://stonepick.github.io/2024/12/07/Translation-ChinaPathfinder-Q2Upd/</id>
+    <title>翻译：中国探路者 2024年第二季度更新</title>
+    <link href="https://dailyminz.org/2024/12/07/Translation-ChinaPathfinder-Q2Upd/"/>
+    <id>https://dailyminz.org/2024/12/07/Translation-ChinaPathfinder-Q2Upd/</id>
     <published>2024-12-07T11:23:22.000Z</published>
-    <updated>2024-12-31T15:27:29.532Z</updated>
+    <updated>2025-01-02T03:03:44.500Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2><p><a href="https://chinapathfinder.org">“中国探路者”（China Pathfinder）</a>项目是<a href="https://www.atlanticcouncil.org/">大西洋理事会</a>和<a href="https://rhg.com/">荣鼎集团</a>合作发起的一个项目，追踪中国市场相对于开放市场经济规范的运行情况。<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="About - China Pathfinder（英文） ">[1]</span></a></sup>自2021年第三季度启动以来，这一项目持续发布季度追踪和包含了巨量数据的年度“计分板”报告书，为洞察中国经济形势提供了无比详实、客观和定量的统计与政策分析。</p><p>该项目的分析报告皆可在其官网上免费下载。先前，出于个人需要，我翻译了其出版的第二季度报告，今天就把它分享在这里，以便不谙英语的读者也能阅读学习。受限于本人能力，如果翻译有不当之处，还请斧正！</p><h3 id="版权声明">版权声明</h3><p><em><strong>China Pathfinder: Q2 2024 Update</strong></em>由China Pathfinder项目出版，原作者保留其所有著作权。原文开放获取（open access）。我因学习需要，将其翻译为简体中文，不对译文主张任何权利（即不适用页尾处的“版权声明”）。关于本博客版权问题，请参照关于页的相关栏目。</p><p>报告原文：<a href="https://chinapathfinder.org/china-pathfinder-q2-2024-update/">https://chinapathfinder.org/china-pathfinder-q2-2024-update/</a>。读者可在此下载原版报告文件（PDF格式）。</p><h2 id="中国探路者：第二季度更新">中国探路者：第二季度更新</h2><p>摘要（译自原报告网页）：</p><p>2024年第二季度，经济数据和官方声明之间的差距不断扩大。房地产市场、股票价格和消费者信心都表现疲软，而中国展示了与外国投资者和中国私人企业的接触，以此表明提振经济活动的意向。但在2024年七月三中全会经济计划会议前的时期中，新政策行动对市场并不友好。对外国投资者来说，有几个鼓舞人心的信号，包括承诺对当地保护主义和武断监管进行约束，但这些措施先前便已有耳闻，“承诺疲劳”（promise fatigue）也是一个严重的问题。我们追踪的大多数组别（clusters）都显现出有限的进展或进一步远离经合组织规范的现象。贸易方面，中国拒绝承认世界对产能过剩的担忧的合法性（legitimacy）。</p><p>总体上，第二季度反映了七月全会的结论：中国将会竭尽所能驱动技术进步，且国家安全将凌驾于国内效率和国外参与之上。解决过度地方监管的新法规包括广泛的国家安全豁免条款，例如允许外国对数据中心和电信投资的试点项目。以全会的国家计划公报为压顶石（capstone），北京方面对经济各领域直接提供国家支持的承诺在本季度得到加强。</p><a class="btn" href="./中国探路者_第二季度-更新_v4.pdf"  title="文章下载" target="_blank">文章下载</a><h2 id="写在最后">写在最后</h2><p>本博客会持续追踪中国探路者项目的更新，并在力所能及的范围内尽快提供中译文。如果找到了其他可靠的非中文信源发布的相关内容，在不侵犯版权的情况下，我也会将其翻译发布于此，以供大家一起学习讨论。</p><h2 id="参考">参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>About - China Pathfinder（英文） <a href="https://chinapathfinder.org/about-2/">https://chinapathfinder.org/about-2/</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    <content type="html"><![CDATA[<h2 id="写在前面">写在前面</h2><p><a href="https://chinapathfinder.org">“中国探路者”（China Pathfinder）</a>项目是<a href="https://www.atlanticcouncil.org/">大西洋理事会</a>和<a href="https://rhg.com/">荣鼎集团</a>合作发起的一个项目，追踪中国市场相对于开放市场经济规范的运行情况。<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="About - China Pathfinder（英文） ">[1]</span></a></sup>自2021年第三季度启动以来，这一项目持续发布季度追踪和包含了巨量数据的年度“计分板”报告书，为洞察中国经济形势提供了无比详实、客观和定量的统计与政策分析。</p><p>该项目的分析报告皆可在其官网上免费下载。先前，出于个人需要，我翻译了其出版的2024年第二季度报告，今天就把它分享在这里，以便不谙英语的读者也能阅读学习。受限于本人能力，如果翻译有不当之处，还请斧正！</p><h3 id="版权声明">版权声明</h3><p><em><strong>China Pathfinder: Q2 2024 Update</strong></em>由China Pathfinder项目出版，原作者保留其所有著作权。原文开放获取（open access）。我因学习需要，将其翻译为简体中文，不对译文主张任何权利（即不适用页尾处的“版权声明”）。关于本博客版权问题，请参照关于页的相关栏目。</p><p>报告原文：<a href="https://chinapathfinder.org/china-pathfinder-q2-2024-update/">https://chinapathfinder.org/china-pathfinder-q2-2024-update/</a>。读者可在此下载原版报告文件（PDF格式）。</p><h2 id="中国探路者：第二季度更新">中国探路者：第二季度更新</h2><p>摘要（译自原报告网页）：</p><p>2024年第二季度，经济数据和官方声明之间的差距不断扩大。房地产市场、股票价格和消费者信心都表现疲软，而中国展示了与外国投资者和中国私人企业的接触，以此表明提振经济活动的意向。但在2024年七月三中全会经济计划会议前的时期中，新政策行动对市场并不友好。对外国投资者来说，有几个鼓舞人心的信号，包括承诺对当地保护主义和武断监管进行约束，但这些措施先前便已有耳闻，“承诺疲劳”（promise fatigue）也是一个严重的问题。我们追踪的大多数组别（clusters）都显现出有限的进展或进一步远离经合组织规范的现象。贸易方面，中国拒绝承认世界对产能过剩的担忧的合法性（legitimacy）。</p><p>总体上，第二季度反映了七月全会的结论：中国将会竭尽所能驱动技术进步，且国家安全将凌驾于国内效率和国外参与之上。解决过度地方监管的新法规包括广泛的国家安全豁免条款，例如允许外国对数据中心和电信投资的试点项目。以全会的国家计划公报为压顶石（capstone），北京方面对经济各领域直接提供国家支持的承诺在本季度得到加强。</p><a class="btn" href="./中国探路者_第二季度-更新_v4.pdf"  title="文章下载" target="_blank">文章下载</a><h2 id="写在最后">写在最后</h2><p>本博客会持续追踪中国探路者项目的更新，并在力所能及的范围内尽快提供中译文。如果找到了其他可靠的非中文信源发布的相关内容，在不侵犯版权的情况下，我也会将其翻译发布于此，以供大家一起学习讨论。</p><h2 id="参考">参考</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>About - China Pathfinder（英文） <a href="https://chinapathfinder.org/about-2/">https://chinapathfinder.org/about-2/</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
     
     
     <summary type="html">“中国探路者”（China Pathfinder）项目是大西洋理事会和荣鼎集团合作发起的一个项目，追踪中国市场相对于开放市场经济规范的运行情况。自2021年第三季度启动以来，这一项目持续发布季度追踪和包含了巨量数据的年度“计分板”报告书，为洞察中国经济形势提供了无比详实、客观和定量的统计与政策分析。该项目的分析报告皆可在其官网上免费下载。先前，出于个人需要，我翻译了其出版的第二季度报告，今天就把它分享在这里，以便不谙英语的读者也能阅读学习。受限于本人能力，如果翻译有不当之处，还请斧正！</summary>
     
     
     
-    <category term="文章翻译" scheme="https://stonepick.github.io/categories/%E6%96%87%E7%AB%A0%E7%BF%BB%E8%AF%91/"/>
+    <category term="文章翻译" scheme="https://dailyminz.org/categories/%E6%96%87%E7%AB%A0%E7%BF%BB%E8%AF%91/"/>
+    
+    <category term="中国探路者" scheme="https://dailyminz.org/categories/%E6%96%87%E7%AB%A0%E7%BF%BB%E8%AF%91/%E4%B8%AD%E5%9B%BD%E6%8E%A2%E8%B7%AF%E8%80%85/"/>
     
     
-    <category term="经济" scheme="https://stonepick.github.io/tags/%E7%BB%8F%E6%B5%8E/"/>
+    <category term="经济" scheme="https://dailyminz.org/tags/%E7%BB%8F%E6%B5%8E/"/>
     
   </entry>
   
   <entry>
     <title>多语言更新暂停</title>
-    <link href="https://stonepick.github.io/2024/12/07/Multilingual-Update-Suspended/"/>
-    <id>https://stonepick.github.io/2024/12/07/Multilingual-Update-Suspended/</id>
+    <link href="https://dailyminz.org/2024/12/07/Multilingual-Update-Suspended/"/>
+    <id>https://dailyminz.org/2024/12/07/Multilingual-Update-Suspended/</id>
     <published>2024-12-07T04:10:11.000Z</published>
     <updated>2024-12-31T15:27:38.220Z</updated>
     
@@ -110,15 +135,15 @@
     
     
     
-    <category term="博客公告" scheme="https://stonepick.github.io/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
+    <category term="博客公告" scheme="https://dailyminz.org/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>多语言支持完工</title>
-    <link href="https://stonepick.github.io/2024/12/03/Multilingual-Support-Completed/"/>
-    <id>https://stonepick.github.io/2024/12/03/Multilingual-Support-Completed/</id>
+    <link href="https://dailyminz.org/2024/12/03/Multilingual-Support-Completed/"/>
+    <id>https://dailyminz.org/2024/12/03/Multilingual-Support-Completed/</id>
     <published>2024-12-03T00:29:36.000Z</published>
     <updated>2024-12-31T15:27:45.051Z</updated>
     
@@ -129,19 +154,19 @@
     
     
     
-    <category term="博客公告" scheme="https://stonepick.github.io/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
+    <category term="博客公告" scheme="https://dailyminz.org/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
     
     
-    <category term="技术" scheme="https://stonepick.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    <category term="技术" scheme="https://dailyminz.org/tags/%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="博客搭建" scheme="https://stonepick.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="https://dailyminz.org/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
   <entry>
     <title>我为什么开启本博客</title>
-    <link href="https://stonepick.github.io/2024/11/30/Why-I-Open-the-Blog/"/>
-    <id>https://stonepick.github.io/2024/11/30/Why-I-Open-the-Blog/</id>
+    <link href="https://dailyminz.org/2024/11/30/Why-I-Open-the-Blog/"/>
+    <id>https://dailyminz.org/2024/11/30/Why-I-Open-the-Blog/</id>
     <published>2024-11-30T06:02:28.000Z</published>
     <updated>2024-12-31T15:29:04.836Z</updated>
     
@@ -152,7 +177,7 @@
     
     
     
-    <category term="博客公告" scheme="https://stonepick.github.io/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
+    <category term="博客公告" scheme="https://dailyminz.org/categories/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A/"/>
     
     
   </entry>
